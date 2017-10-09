@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 07 Oct 2017 15:21:00 at http://codewithmosh.teachable.com/p/angular-master-class +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://codewithmosh.teachable.com/p/angular-master-class -O1 "C:\My Web Sites\angular-master-class" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:21:26	Error: 	"Bad Request" (400) at link https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:72,height:72/https://teachable.com/images/favicons/apple-touch-icon-180x180.png (from codewithmosh.teachable.com/p/angular-master-class)
+15:21:26	Error: 	"Bad Request" (400) at link https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:144,height:144/https://teachable.com/images/favicons/apple-touch-icon-180x180.png (from codewithmosh.teachable.com/p/angular-master-class)
+15:23:15	Error: 	"Not Found" (404) at link d2oz8i5n9se8ej.cloudfront.net/fonts/proxima-nova/proximanova-extrabold-webfont.eot?1307578394 (from d2oz8i5n9se8ej.cloudfront.net/school-css-1507331834-146684-3393d9697e1bd3e8252777b5a8272fea.css)
+15:23:15	Error: 	"Not Found" (404) at link d2oz8i5n9se8ej.cloudfront.net/fonts/proxima-nova/proximanova-extrabold-webfont.eot?iefix (from d2oz8i5n9se8ej.cloudfront.net/school-css-1507331834-146684-3393d9697e1bd3e8252777b5a8272fea.css)
+15:23:19	Error: 	"Not Found" (404) at link d2oz8i5n9se8ej.cloudfront.net/my-teachable/icon-billing.svg (from d2oz8i5n9se8ej.cloudfront.net/school-css-1507331834-146684-3393d9697e1bd3e8252777b5a8272fea.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 19 seconds : 82 links scanned, 75 files written (5322375 bytes overall) [3449015 bytes received at 24813 bytes/sec], 2512064 bytes transferred using HTTP compression in 14 files, ratio 23%, 4.9 requests per connection
+(5 errors, 0 warnings, 0 messages)

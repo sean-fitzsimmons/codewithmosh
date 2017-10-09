@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+codewithmosh.teachable.com	TRUE	/	FALSE	1999999999	ahoy_visitor	8cfde438-83a5-47e4-b258-f9618f3c4c17
+codewithmosh.teachable.com	TRUE	/	FALSE	1999999999	site_preview	logged_out
+codewithmosh.teachable.com	TRUE	/	FALSE	1999999999	AWSELB	15215DAB1E89704D938AEF043C48EF90DDD5D46B635EF040071590D1F7A2FDBAC05A5437BE752D9D2097DD6F2F47FB7719A57EB42DB354FE2998773B1370F6B1CF373924A9
+codewithmosh.teachable.com	TRUE	/	FALSE	1999999999	ahoy_visit	aa782e53-4618-4d37-89c3-124aeb8f9f60
+codewithmosh.teachable.com	TRUE	/	FALSE	1999999999	_session_id	52f459288981353dcbb2aa62bf32022e
+
