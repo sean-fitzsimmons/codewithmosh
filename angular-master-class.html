@@ -8132,15 +8132,24 @@ Lucky for you, this course is a full-on, deep-dive into Angular that will give y
 <script>
   var el = document.getElementById("enroll-button")
   el.addEventListener("click", function(e){
-    ga('send', 'event', {
-      eventCategory: 'Outbound Link',
-      eventAction: 'click',
-      eventLabel: event.target.href,
-      transport: 'beacon',
-      hitCallback: function(){ 
-        console.log("CALLBACK");
+    console.log("CLICKED");
+
+    ga('send', 'pageview', {
+      'hitCallback': function() {
+        alert('hit sent');
       }
     });
+
+    // ga('send', 'event', {
+    //   eventCategory: 'Outbound Link',
+    //   eventAction: 'click',
+    //   eventLabel: event.target.href,
+    //   // transport: 'beacon',
+    //   hitCallback: function(){ 
+    //     console.log("CALLBACK");
+    //   }
+    // });
+    console.log("DONE", ga);
 
     // window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'
   });
