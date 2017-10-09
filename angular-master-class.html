@@ -8114,7 +8114,7 @@ Lucky for you, this course is a full-on, deep-dive into Angular that will give y
               <div class="row">
                 <center>
                   <br>
-                    <button id='enroll-button' data-course-id="206545" class="btn btn-hg btn-primary btn-enroll" onclick="ga('send', 'event', 'Enroll', 'Click'); window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'" name="commit" type="submit" value="Enroll in Course">
+                    <button id='enroll-button' data-course-id="206545" class="btn btn-hg btn-primary btn-enroll" name="commit" type="submit" value="Enroll in Course">
                       <i class='fa fa-shopping-cart'></i>&nbsp;&nbsp;Enroll for <strike>$350</strike> $175
                     </button>
                    
@@ -8129,7 +8129,22 @@ Lucky for you, this course is a full-on, deep-dive into Angular that will give y
 
 <!-- Pre-enrollment Form -->
 
+<script>
+  var el = document.getElementById("enroll-button")
+  el.addEventListener("click", function(e){
+    ga('send', 'event', {
+      eventCategory: 'Outbound Link',
+      eventAction: 'click',
+      eventLabel: event.target.href,
+      transport: 'beacon',
+      hitCallback: function(){ 
+        console.log("CALLBACK");
+      }
+    });
 
+    // window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'
+  });
+</script>
 
 
 
