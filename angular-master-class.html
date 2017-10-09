@@ -191,28 +191,17 @@ ul.features li:before {
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66465936-3"></script>
 <script>
-    if(typeof ga != 'function') {
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','www.google-analytics.com/analytics.js','ga');
-    }
-    ga('create', 'UA-44397410-1', 'auto', {'name': 'fedoraTracker', 'allowLinker': true});
-    ga('fedoraTracker.require', 'linker');
-    ga('fedoraTracker.linker:autoLink', ['codewithmosh.teachable.com'] );
-    ga('fedoraTracker.require', 'ecommerce');
-    ga('fedoraTracker.require', 'ec');
-    ga('fedoraTracker.send', 'pageview');
-    ga('create', 'UA-44397410-4', 'auto', {'name': 'teachableTracker', 'allowLinker': true});
-    ga('teachableTracker.require', 'linker');
-    ga('teachableTracker.linker:autoLink', ['codewithmosh.teachable.com'] );
-    ga('teachableTracker.require', 'ecommerce');
-    ga('teachableTracker.require', 'ec');
-    ga('teachableTracker.send', 'pageview');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    </script>
+  gtag('config', 'UA-66465936-3');
+</script>
+
+
 <link href="http://codewithmosh.teachable.com/blog/rss" rel="alternate" title="RSS Feed" type="application/rss+xml" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -8125,7 +8114,7 @@ Lucky for you, this course is a full-on, deep-dive into Angular that will give y
               <div class="row">
                 <center>
                   <br>
-                    <button id='enroll-button' data-course-id="206545" class="btn btn-hg btn-primary btn-enroll" onclick="window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'" name="commit" type="submit" value="Enroll in Course">
+                    <button id='enroll-button' data-course-id="206545" class="btn btn-hg btn-primary btn-enroll" onclick="ga('send', 'event', 'Enroll', 'Click'); window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'" name="commit" type="submit" value="Enroll in Course">
                       <i class='fa fa-shopping-cart'></i>&nbsp;&nbsp;Enroll for <strike>$350</strike> $175
                     </button>
                    
