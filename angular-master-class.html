@@ -8115,7 +8115,15 @@ Lucky for you, this course is a full-on, deep-dive into Angular that will give y
 <script>
   var el = document.getElementById("enroll-button")
   el.addEventListener("click", function(e){
-    // window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'
+    gtag('event', 'event_name', {
+      'event_category': 'ecommerce',
+      'event_action': 'purchase',
+      'value': 175,
+      'event_callback': function() {
+        console.log("CALLBACK");
+        window.location.href='https://sso.teachable.com/secure/146684/checkout/421179/angular-master-class?coupon_code=HALFOFF'
+      }
+    });    
   });
 </script>
 
